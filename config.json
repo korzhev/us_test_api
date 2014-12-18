@@ -1,6 +1,6 @@
 {
 	"port": 8000,
-	"db":"mongodb://us_test:us_test@ds027491.mongolab.com:27491/uc",
+	"db":"mongodb://us_test:us_test@ds027491.mongolab.com:27491/uc2",
 	"liveTime": 600000,
 	"pingHost": "google.com"
 }

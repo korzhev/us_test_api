@@ -6,14 +6,14 @@ module.exports = function() {
       timestamp: true,
       colorize: true,
       level: 'debug'
-    }),
-    new winston.transports.File({
-      filename: 'logs/error.log',
-      colorize: false,
-      level: 'error',
-      maxsize: 4*1024*1024,
-      json: false
     })
+    // , new winston.transports.File({
+    //   filename: 'logs/error.log',
+    //   colorize: false,
+    //   level: 'error',
+    //   maxsize: 4*1024*1024,
+    //   json: false
+    // })
   ];
 
   return new winston.Logger({ transports: transports });
